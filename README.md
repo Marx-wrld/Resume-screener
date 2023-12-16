@@ -1,5 +1,5 @@
 # Resume-screener
-A repository containing a resume screening software build in python and nlp.
+A repository containing a resume screening software build in NLP.
 
 - Choosing the right people for your job is the biggest responsibility of every business, since choosing the right set of people can accelerate business growth exponentially.
 
