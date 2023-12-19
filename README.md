@@ -19,5 +19,14 @@ This is a simple web application built with Streamlit that serves as a "Resume S
 
 **Text Cleaning Function:**
 - clean_resume(resume_text): This function takes a raw resume text and performs several cleaning steps, including removing URLs, mentions, special characters, non-ASCII characters, and extra whitespaces.
-
+  
+**Web Application Main Function:**
+```
+main(): This is the main function for the Streamlit web application.
+```
+- It displays a title "Resume Screener" and provides a file uploader widget (st.file_uploader) for users to upload their resumes.
+- When a file is uploaded, it reads the contents of the file, cleans the text using the clean_resume function, and then uses the pre-trained model to make a prediction.
+- The predicted category ID is displayed, and a mapping (category_mapping) is used to map the ID to a human-readable category name.
+- The predicted category name is then displayed in the web application.
+  
 ![2023-12-19 18_14_51-](https://github.com/Marx-wrld/Resume-screener/assets/105711066/e69aba16-f59c-4e4c-a0e3-9750f97e70f9)
