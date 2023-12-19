@@ -7,3 +7,4 @@ A repository containing a resume screening software build in NLP.
 ```
 streamlit run app.py
 ```
+![2023-12-19 18_14_51-](https://github.com/Marx-wrld/Resume-screener/assets/105711066/e69aba16-f59c-4e4c-a0e3-9750f97e70f9)
